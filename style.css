@@ -1,0 +1,264 @@
+*{
+    margin: 0vh;
+    padding: 0vh;
+   scroll-behavior: smooth;
+   text-align: center;
+   box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7XqNTeoJavCDSImAcuhCVI9txOPGoCcCm3g&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.mikuo{
+    font-size: 2.20rem;
+    text-align: left;
+    padding: 15px;
+    padding-left: 10px;
+    color: white;
+    font-family: Verdana;
+    margin-right: 300px;
+}
+.navigation ul{
+    background-color: #191923;
+    padding: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    font-weight: 600; 
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    list-style: none;
+
+}
+.navigation ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    border-radius: 50px;
+    margin: 14px 10px;
+    text-transform: uppercase;
+    font-size: 1.30rem;
+    display: block;
+}
+
+.navigation a:hover{
+    background-color: rgba(68, 124, 156, 0.856);
+    transition: 0.2s ease;
+}
+
+.section{
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 50px;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    padding: 30px;
+    padding-top: 170px;
+}
+
+
+.section h3{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section p{
+    text-align: center;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: darkgray;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.imgdet{
+    float: left;
+    border-radius: 50%;
+    border: 6px solid white;
+    max-width: 320px;
+    margin: 0px 1vw 0px 1vw;
+
+}
+nav{
+    font-size: 10px;
+}
+.artworks{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding-top: 110px;
+    padding-bottom: 20px;
+    
+}
+.pic1{
+    margin: 25px;
+    width: 295px;
+    height: 295px;
+    border-radius: 10px;
+
+}
+
+.containers{
+    height: 40%;
+    width:30%;
+    display:inline;
+    align-items: center;
+    padding: 25px;
+    text-align: center;     
+}
+
+
+
+.contact_form{
+    width: 450px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    border: black solid 2px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 25px;
+    box-shadow: inset 1px 1px 8px black;
+}
+
+.contact_form h1{
+    font-weight: 800;
+    font-size: 2rem;        
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.email{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 40px;
+    width: 80%;
+    font-size: 1.02rem;
+    font-weight: 500;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.103);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    border: none;
+    height: 50px;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.37);
+    margin-top: 15px;
+    font-size: 1.30rem;
+
+}
+
+button :hover{
+    color: rgba(0, 0, 0, 0.452);
+    transition: 1s;
+    border: #191923;
+}
+
+textarea{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 100px;
+    width: 80%;
+    font-size: 1.02rem;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.103);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    opacity: 0.3;
+    margin: auto;
+    width:95%;  
+    border-radius: 15px;
+}
+
+.linkbelow{
+    padding: 25px 0px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.linkbelow a{
+    text-decoration: none;
+    color: white;
+}
+.linkbelow a:hover{
+    text-decoration: underline;
+    transition: 0.5s ease;
+}
+
+@media (max-width:900px) {
+    .navigation ul li a{
+        display: none;
+    }
+
+    .linkbelow{
+        text-align: center;
+        display: inline;
+    }
+
+    .contact_form{
+        width: 100vw;
+    }
+
+    .section p {
+        text-align: justify;
+        word-spacing: 1px;
+    }
+    .section h3{
+       margin: auto;
+    }
+
+    .containers{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .imgdet{
+        margin: 0%;
+        padding: 0%;
+    }
+    hr{
+        margin: 15px;
+    }
+
+    
+}
+
+
+
+
+
+
